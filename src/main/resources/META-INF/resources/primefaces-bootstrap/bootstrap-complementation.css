@@ -1,0 +1,78 @@
+
+.btn-primary {
+  border-color: #0055cc #0055cc #003580 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-warning {
+  border-color: #f89406 #f89406 #ad6704 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-danger {
+  border-color: #bd362f #bd362f #802420 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-success {
+  border-color: #51a351 #51a351 #387038 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-info {
+  border-color: #2f96b4 #2f96b4 #1f6377 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-inverse {
+  border-color: #222222 #222222 #000000 !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.button-mini{
+	width: 70px;	
+}
+
+.button-small{
+	width: 100px;	
+}
+
+.button-medium{
+	width: 160px;	
+}
+
+.button-large{
+	width: 220px;	
+}
+
+.button-xlarge{
+	width: 280px;	
+}
+
+.button-xxlarge{
+	width: 540px;	
+}
+
+.select-mini{
+	width: 68px;
+}
+
+.select-small{
+	width: 98px;
+}
+
+.select-medium{
+	width: 158px;
+}
+
+.select-large{
+	width: 218px;
+}
+
+.select-xlarge{
+	width: 278px;
+}
+
+.select-xxlarge{
+	width: 538px;
+}
