@@ -25,7 +25,6 @@ Maven
 Usage
 -----
 
-<<<<<<< HEAD
 ### Web.xml
 
 	<context-param>
@@ -33,8 +32,6 @@ Usage
 		<param-value>bootstrap</param-value>
 	</context-param>
 
-=======
->>>>>>> 78b6a24bd33d128eb2708e2a792d3dd169a45c31
 ### Namespace
 
 	xmlns:sb="http://www.suricattus.com.br/bootstrap/ui"
