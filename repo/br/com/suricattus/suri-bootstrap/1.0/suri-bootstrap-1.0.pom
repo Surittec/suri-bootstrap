@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.suricattus</groupId>
+	<artifactId>suri-bootstrap</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>suri-bootstrap</name>
+	
+	<organization>
+		<name>Suricattus</name>
+		<url>http://www.suricattus.com.br</url>
+	</organization>
+	
+	<developers>
+		<developer>
+			<id>lucas.lins</id>
+			<name>Lucas Lins</name>
+			<email>lucas.lins@suricattus.com.br</email>
+			<timezone>-3</timezone>
+			<roles>
+				<role>Software Developer</role>
+				<role>Software Architect</role>
+			</roles>
+		</developer>
+	</developers>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
+		<jdk.version>1.6</jdk.version>
+		<junit.version>4.8.1</junit.version>
+	</properties>
+	
+</project>
