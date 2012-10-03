@@ -35,17 +35,17 @@ a {
 .ui-widget
 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 }
 .ui-widget .ui-widget
 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button
 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 }
 .ui-widget-content
 {

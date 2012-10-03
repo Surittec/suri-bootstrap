@@ -1,3 +1,6 @@
+.icon-black{
+	background-image:url("#{resource['primefaces-bootstrap:images/glyphicons-halflings.png']}") !important;
+}
 
 .btn-primary {
   border-color: #0055cc #0055cc #003580 !important;
@@ -29,50 +32,78 @@
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
 }
 
-.button-mini{
-	width: 70px;	
+button.btn{
+	height: 30px;
 }
 
-.button-small{
-	width: 100px;	
+.btn-mini{
+	width: 74px;	
 }
 
-.button-medium{
-	width: 160px;	
+a.btn-mini{
+	width: 44px;
 }
 
-.button-large{
-	width: 220px;	
+.btn-small{
+	width: 104px;	
 }
 
-.button-xlarge{
-	width: 280px;	
+a.btn-small{
+	width: 74px;	
 }
 
-.button-xxlarge{
-	width: 540px;	
+.btn-medium{
+	width: 164px;	
+}
+
+a.btn-medium{
+	width: 134px;	
+}
+
+.btn-large{
+	width: 224px;	
+}
+
+a.btn-large{
+	width: 194px;	
+}
+
+.btn-xlarge{
+	width: 284px;	
+}
+
+a.btn-xlarge{
+	width: 254px;	
+}
+
+.btn-xxlarge{
+	width: 544px;	
+}
+
+a.btn-xxlarge{
+	width: 514px;	
 }
 
 .select-mini{
-	width: 68px;
+	width: 72px !important;
 }
 
 .select-small{
-	width: 98px;
+	width: 102px !important;
 }
 
 .select-medium{
-	width: 158px;
+	width: 162px !important;
 }
 
 .select-large{
-	width: 218px;
+	width: 222px !important;
 }
 
 .select-xlarge{
-	width: 278px;
+	width: 282px !important;
 }
 
 .select-xxlarge{
-	width: 538px;
+	width: 542px !important;
 }
