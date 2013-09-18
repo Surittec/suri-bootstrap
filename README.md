@@ -17,7 +17,7 @@ Maven
 	<dependency>
 		<groupId>br.com.suricattus</groupId>
 		<artifactId>suri-bootstrap</artifactId>
-		<version>1.2</version>
+		<version>1.2.1</version>
 		<scope>compile</scope>
 	</dependency>
 	
