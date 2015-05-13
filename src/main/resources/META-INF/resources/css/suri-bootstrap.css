@@ -19,6 +19,14 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
  
+table{
+	font-size: inherit;
+}
+
+table th .glyphicon {
+	font-size: 12px;
+}
+ 
 /* Table filter */
 .filter-label {
     display: block;
