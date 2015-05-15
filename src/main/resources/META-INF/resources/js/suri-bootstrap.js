@@ -108,11 +108,18 @@ jQuery( document ).ready(function( $ ) {
 
     $('.hasDatepicker').addClass('form-control').parent('span').addClass('datepicker-container');
     
+    // Switch Checkbox
+    $(".switchCheckbox").bootstrapSwitch({
+        onText: 'I',
+        offText: '0'
+    }); 
     
     // Tooltip
     $('.tooltip-top').attr('data-toggle', 'tooltip').attr('data-placement', 'top').tooltip();
     $('.tooltip-bottom').attr('data-toggle', 'tooltip').attr('data-placement', 'bottom').tooltip();
     $('.tooltip-left').attr('data-toggle', 'tooltip').attr('data-placement', 'left').tooltip();
     $('.tooltip-right').attr('data-toggle', 'tooltip').attr('data-placement', 'right').tooltip();
+    
+    
     
 });
