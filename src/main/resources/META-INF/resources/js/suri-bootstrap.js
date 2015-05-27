@@ -20,7 +20,11 @@
  */
 
 jQuery( document ).ready(function( $ ) {
+    setupAppComponents();
+});
 
+var setupAppComponents = function () {
+    
 	// Highlight fields on form validation errors
     $('.text-danger').parents('.form-group').addClass('has-error');
     $('.ui-state-error').parents('.form-group').addClass('has-error');
@@ -119,7 +123,5 @@ jQuery( document ).ready(function( $ ) {
     $('.tooltip-bottom').attr('data-toggle', 'tooltip').attr('data-placement', 'bottom').tooltip();
     $('.tooltip-left').attr('data-toggle', 'tooltip').attr('data-placement', 'left').tooltip();
     $('.tooltip-right').attr('data-toggle', 'tooltip').attr('data-placement', 'right').tooltip();
-    
-    
-    
-});
+	
+};
