@@ -124,4 +124,5 @@ var setupAppComponents = function () {
     $('.tooltip-left').attr('data-toggle', 'tooltip').attr('data-placement', 'left').tooltip();
     $('.tooltip-right').attr('data-toggle', 'tooltip').attr('data-placement', 'right').tooltip();
 	
+    $('select[size=1]').removeAttr("size");
 };
