@@ -8,11 +8,11 @@
 	
 	<tag>
 		<tag-name>head</tag-name>
-		<source>resources/facelets/head.xhtml</source>
+		<source>resources/suribootstrap/facelets/head.xhtml</source>
 	</tag>
 	<tag>
 		<tag-name>js</tag-name>
-		<source>resources/facelets/js.xhtml</source>
+		<source>resources/suribootstrap/facelets/js.xhtml</source>
 	</tag>
 	
 </facelet-taglib>
