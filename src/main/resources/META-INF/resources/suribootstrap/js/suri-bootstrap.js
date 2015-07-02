@@ -31,16 +31,7 @@ var setupAppComponents = function () {
     
     // Map Primefaces icons to Bootstrap's
     $('.ui-icon').addClass('glyphicon');
-    $('.ui-icon-seek-first').addClass('glyphicon-fast-backward').empty();
-    $('.ui-icon-seek-prev').addClass('glyphicon-step-backward').empty();
-    $('.ui-icon-seek-next').addClass('glyphicon-step-forward').empty();
-    $('.ui-icon-seek-end').addClass('glyphicon-fast-forward').empty();
-    $('.ui-icon-carat-2-n-s').addClass('glyphicon-sort');
     $('.ui-icon-triangle-1-s').addClass('caret');
-    $('.ui-icon-arrow-1-e').addClass('glyphicon-step-forward');
-    $('.ui-icon-arrowstop-1-e').addClass('glyphicon-fast-forward');
-    $('.ui-icon-arrow-1-w').addClass('glyphicon-step-backward');
-    $('.ui-icon-arrowstop-1-w').addClass('glyphicon-fast-backward');
 
     // Map Primefaces button style to Bootstrap's
     $('.ui-button').addClass('btn');

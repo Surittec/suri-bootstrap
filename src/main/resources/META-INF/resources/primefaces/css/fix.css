@@ -1,3 +1,47 @@
+/* Icons Map to glyphicon */
+
+.ui-icon {
+    text-indent: inherit;
+    position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: inherit !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ui-icon-seek-first:before{
+	content: "\e070";
+}
+.ui-icon-seek-prev:before{
+	content: "\e069";
+}
+.ui-icon-seek-next:before{
+	content: "\e077";
+}
+.ui-icon-seek-end:before{
+	content: "\e076";
+}
+.ui-icon-carat-2-n-s:before{
+	content: "\e150";
+}
+.ui-icon-arrow-1-e:before{
+	content: "\e077";
+}
+.ui-icon-arrowstop-1-e:before{
+	content: "\e076";
+}
+.ui-icon-arrow-1-w:before{
+	content: "\e069";
+}
+.ui-icon-arrowstop-1-w:before{
+	content: "\e070";
+}
+
+/* End Icons Map to glyphicon */
+
 .ui-shadow {
     -webkit-box-shadow: 0 !important;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -11,10 +55,6 @@
 .ui-widget-content {
     background-color: #fff;
     border: 1px solid #cccccc;
-}
-
-.ui-icon {
-    text-indent: inherit;
 }
 
 .ui-datatable table{
