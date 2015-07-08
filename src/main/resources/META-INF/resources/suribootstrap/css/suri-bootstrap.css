@@ -42,6 +42,6 @@ table th .glyphicon {
     width: 31px;
 }
 
-.btn{
-	margin-left: 5px;
+.form-group .btn{
+	margin-right: 5px;
 }
