@@ -74,8 +74,16 @@
     margin: 0 0 0 6px;
 }
 
+.ui-column-filter, .ui-column-customfilter > input, .ui-column-customfilter > select{
+	height: 30px;
+}
+
 .ui-button-text {
     padding: 0 !important;
+}
+
+.ui-button .ui-button-text{
+	line-height: inherit;
 }
 
 .ui-chkbox .ui-chkbox-box {
