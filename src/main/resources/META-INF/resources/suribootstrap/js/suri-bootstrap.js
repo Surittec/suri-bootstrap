@@ -46,7 +46,7 @@ var setupAppComponents = function () {
     });
 
     // Messages
-    $('.facesMessage').prepend('<button type="button" class="close" data-dismiss="alert">&times;</button>');
+    $('.facesMessage:not(:has(button))').prepend('<button type="button" class="close" data-dismiss="alert">&times;</button>');
     $('.facesMessageFadeOut').delay(7000).fadeOut();
 
     // Table Filter
