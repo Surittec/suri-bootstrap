@@ -29,12 +29,12 @@ table th .glyphicon {
  
 /* Table filter */
 .filter-label {
-    display: block;
+    display: inline-block;
     cursor: pointer;
 }
 
-.ui-column-filter.filter-hide {
-    display: none;
+.filter-hide {
+    display: none !important;
 }
 
 /* Table checkbox column */

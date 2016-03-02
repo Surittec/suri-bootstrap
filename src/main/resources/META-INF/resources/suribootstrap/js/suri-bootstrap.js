@@ -51,7 +51,7 @@ var setupAppComponents = function () {
 
     // Table Filter
     $('.filter-label').click(function () {
-        $(this).parent().next().show().focus();
+    	$(this).closest('th').find('.filter-hide').removeClass('filter-hide').focus();
     });
 	
 	// Tree
