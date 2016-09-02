@@ -39,6 +39,9 @@
 .ui-icon-arrowstop-1-w:before{
 	content: "\e070";
 }
+.ui-icon-close:before{
+	content: "\e014";
+}
 
 /* End Icons Map to glyphicon */
 
