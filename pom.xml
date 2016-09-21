@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>br.com.surittec</groupId>
 		<artifactId>suri-pom</artifactId>
-		<version>1.0.0</version>
+		<version>1.1.0</version>
 	</parent>
 	
 	<artifactId>suri-bootstrap</artifactId>
-	<version>2.0.8</version>
+	<version>2.0.9</version>
 	<packaging>jar</packaging>
 	
 	<name>Suri Bootstrap</name>
@@ -22,5 +22,39 @@
 			<url>https://github.com/Surittec/suri-repo/raw/master</url>
 		</repository>
 	</repositories>
+	
+	<dependencies>
+		
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<version>${jsf.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>templating-maven-plugin</artifactId>
+				<version>${templating-maven-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>filter-src</id>
+						<goals>
+							<goal>filter-sources</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<properties>
+		<jsf.version>2.1.28</jsf.version>
+		<templating-maven-plugin.version>1.0.0</templating-maven-plugin.version>
+	</properties>
 	
 </project>
