@@ -23,6 +23,14 @@ jQuery( document ).ready(function( $ ) {
     setupAppComponents();
 });
 
+jQuery.fn.hasHScrollBar = function(){
+	return this.get(0).scrollWidth > this.innerWidth();
+}
+
+jQuery.fn.hasVScrollBar = function(){
+	return this.get(0).scrollHeight > this.innerHeight();
+}
+
 var setupAppComponents = function () {
     
 	// Highlight fields on form validation errors
@@ -40,6 +48,32 @@ var setupAppComponents = function () {
     $('.ui-datatable-tablewrapper').addClass('table-responsive');
     $('.ui-column-filter.ui-inputfield').addClass('form-control input-sm pull-left').css("width", "90%");
 
+    $('.table-responsive .dropdown').on('show.bs.dropdown', function (e) {
+		var $table = $(this).closest('.table-responsive');
+		if(!$table.hasHScrollBar()){
+			$('.table-responsive').css("overflow", "visible");
+		}
+	});
+	
+	$('.table-responsive .dropdown').on('shown.bs.dropdown', function (e) {
+        var $table = $(this).closest('.table-responsive');
+
+		if($table.hasHScrollBar()){
+			var $menu = $(this).find('.dropdown-menu'),
+            	tableOffsetHeight = $table.offset().top + $table.height(),
+            	menuOffsetHeight = $menu.offset().top + $menu.outerHeight(true);
+			
+            if (menuOffsetHeight > tableOffsetHeight)
+                $table.css("padding-bottom", menuOffsetHeight - tableOffsetHeight + 15);
+		}
+		
+    });
+
+    $('.table-responsive .dropdown').on('hide.bs.dropdown', function () {
+    	$(this).closest('.table-responsive').css({"padding-bottom":"", "overflow":""});
+    })
+    
+    
     // Pulldown
     $('.pull-down').each(function () {
         $(this).css('margin-top', $(this).parent().height() - $(this).height());

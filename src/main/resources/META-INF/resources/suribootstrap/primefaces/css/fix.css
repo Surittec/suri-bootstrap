@@ -148,6 +148,10 @@ table .ui-widget-content {
     border-left: 0;
 }
 
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td, .ui-datatable tfoot th {
+	overflow: inherit;
+}
+
 .ui-datatable .ui-paginator {
     padding-left: 0;
     margin: 15px 0 10px 0;
